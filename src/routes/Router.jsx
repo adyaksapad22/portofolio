@@ -9,7 +9,7 @@ const repoName = import.meta.env.VITE_REPO_NAME || "";
 export const router = createBrowserRouter(
   [
     {
-      path: `/`,
+      path: "/",
       element: (
         <Suspense fallback={<Loading />}>
           <Main />
@@ -18,10 +18,12 @@ export const router = createBrowserRouter(
       children: [
         {
           path: "/",
-          element: <Home></Home>,
+          element: <Home />,
         },
       ],
     },
   ],
-  { basename: `/${repoName}` }
+  {
+    basename: "/portofolio",
+  }
 );

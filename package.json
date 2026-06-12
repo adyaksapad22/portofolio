@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://github.com/adyaksapad22/portofolio.git",
+    "homepage": "https://adyaksapad22.github.io/portofolio",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
