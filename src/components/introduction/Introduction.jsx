@@ -42,7 +42,9 @@ const Introduction = () => {
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href=" linkedin.com/padmanabhaadyaksa"
+              href="https://www.linkedin.com/in/padmanabhaadyaksa/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Let's Connect
             </a>
